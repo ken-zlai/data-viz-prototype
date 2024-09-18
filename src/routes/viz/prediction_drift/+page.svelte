@@ -73,4 +73,4 @@
 	});
 </script>
 
-<div id="prediction-drift" style="height: 300px; width: 800px"></div>
+<div id="prediction-drift" style="height: 300px; width: 100%"></div>

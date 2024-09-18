@@ -89,4 +89,4 @@
 	});
 </script>
 
-<div id="heatmap" style="height: 300px; width: 800px"></div>
+<div id="heatmap" style="height: 300px; width: 100%"></div>
