@@ -25,7 +25,7 @@
 
 	const option = {
 		title: {
-			text: 'Prediction Drift Visualization',
+			text: 'Distribution - GroupBy[x], Feature [x], [date]',
 			left: 'center'
 		},
 		legend: {
