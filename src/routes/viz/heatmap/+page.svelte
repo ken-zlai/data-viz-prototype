@@ -75,7 +75,10 @@
 			min: 0,
 			max: 1,
 			orient: 'vertical',
-			right: '0'
+			right: '0',
+			inRange: {
+				color: ['green', 'yellow']
+			}
 		},
 		grid: {
 			left: '100px'
