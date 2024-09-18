@@ -21,9 +21,9 @@
 			let z;
 
 			if (xAxisAnomolies.includes(xAxis[i])) {
-				z = Math.random() * 0.2; // random number between 0 and 0.2
+				z = Math.random() * 0.2 + 0.8;
 			} else {
-				z = Math.random() * 0.3 + 0.7; // random number between 0.7 and 1
+				z = Math.random() * 0.2;
 			}
 			data.push(z);
 		}
@@ -34,13 +34,16 @@
 	const data = generateData(xAxis, xAxisAnomolies);
 
 	const option = {
+		title: {
+			text: 'Model [x] Drift',
+			left: 'center'
+		},
 		xAxis: {
 			type: 'category',
 			data: xAxis
 		},
 		yAxis: {
 			type: 'value',
-			name: 'Model Accuracy',
 			nameLocation: 'middle',
 			nameRotate: 90,
 			nameGap: 40, // Adjust the gap between the y-axis labels and the name
