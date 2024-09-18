@@ -42,7 +42,7 @@
 		},
 		series: [
 			{
-				name: 'Original',
+				name: 'Current distribution',
 				type: 'line',
 				data: curve1,
 				areaStyle: { opacity: 0.8, color: 'gray' },
@@ -53,7 +53,7 @@
 				showSymbol: false
 			},
 			{
-				name: 'Drifted',
+				name: '1 week ago distribution',
 				type: 'line',
 				data: curve2,
 				areaStyle: { opacity: 0.8, color: 'blue' },
