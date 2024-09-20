@@ -25,8 +25,7 @@
 
 	const option = {
 		title: {
-			text: 'Distribution - GroupBy[x], Feature [x], [date]',
-			left: 'center'
+			text: 'Values - GroupBy 1, Feature 10, 01-04-2024'
 		},
 		legend: {
 			// Try 'horizontal'
@@ -42,7 +41,7 @@
 		},
 		series: [
 			{
-				name: '1 week ago distribution',
+				name: '1 week ago',
 				type: 'line',
 				data: curve1,
 				areaStyle: { opacity: 0.8, color: 'gray' },
@@ -53,7 +52,7 @@
 				showSymbol: false
 			},
 			{
-				name: 'Current distribution',
+				name: 'Today',
 				type: 'line',
 				data: curve2,
 				areaStyle: { opacity: 0.8, color: 'blue' },
