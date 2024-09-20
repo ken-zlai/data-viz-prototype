@@ -49,20 +49,16 @@
 	const data = generateData(xAxis, yAxis, xAxisAnomolies, yAxisAnomolies);
 
 	const option = {
+		title: {
+			text: 'GroupBy 1'
+		},
 		xAxis: {
 			type: 'category',
 			data: xAxis
 		},
 		yAxis: {
 			type: 'category',
-			data: yAxis,
-			name: 'GroupBy 1',
-			nameLocation: 'middle',
-			nameRotate: 90,
-			nameGap: 70, // Adjust the gap between the y-axis labels and the name
-			nameTextStyle: {
-				fontSize: 18 // Optional: Adjust the font size
-			}
+			data: yAxis
 		},
 		series: [
 			{
@@ -77,7 +73,7 @@
 			orient: 'vertical',
 			right: '0',
 			inRange: {
-				color: ['green', 'yellow']
+				color: ['#006B3D', '#FFD301', '#d61f1f']
 			}
 		},
 		grid: {
