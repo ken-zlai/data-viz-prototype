@@ -81,7 +81,7 @@
 
 	const option = {
 		title: {
-			text: 'Prediction Drift vs Feature Drift',
+			text: 'GroupBy 1',
 			left: 'center'
 		},
 		grid: {
@@ -126,14 +126,16 @@
 		yAxis: [
 			{
 				name: 'Feature Drift',
-				type: 'value'
+				type: 'value',
+				max: 1
 			},
 			{
 				name: 'Prediction Drift',
 				nameLocation: 'start',
 				alignTicks: true,
 				type: 'value',
-				inverse: true
+				inverse: true,
+				max: 1
 			}
 		],
 		series: [
